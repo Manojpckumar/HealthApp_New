@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "914897347789",
+    "project_id": "healthapp-156bb",
+    "storage_bucket": "healthapp-156bb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:914897347789:android:06afad1ff3103e355d7584",
+        "android_client_info": {
+          "package_name": "com.manoj.healthcareapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "914897347789-5h2stip73fpjo459qc3f21matsokqtla.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBm-YQFUj-94Tom6MV0tSf7Jm54ek23XYI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "914897347789-5h2stip73fpjo459qc3f21matsokqtla.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:914897347789:android:fa0f9eb37a238f3d5d7584",
+        "android_client_info": {
+          "package_name": "com.manojpc.healthcareapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "914897347789-1se72a9c2g7gmju71it5le09kq9n5ckq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.manojpc.healthcareapp",
+            "certificate_hash": "b96f817bf533368aa5996db27cc13759bb3abdec"
+          }
+        },
+        {
+          "client_id": "914897347789-5h2stip73fpjo459qc3f21matsokqtla.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBm-YQFUj-94Tom6MV0tSf7Jm54ek23XYI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "914897347789-5h2stip73fpjo459qc3f21matsokqtla.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

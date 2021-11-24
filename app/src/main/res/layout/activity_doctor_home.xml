@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E5E5E5"
+    tools:context=".DoctorHomeActivity">
+
+    <LinearLayout
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="215dp"
+        android:background="@drawable/rectangle_round"
+        android:elevation="6dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/home_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="155dp"
+                android:layout_marginLeft="155dp"
+                android:layout_marginBottom="156dp"
+                android:gravity="center"
+                android:text="Home"
+                android:textColor="#ffffff"
+                android:textSize="32sp" />
+
+            <TextView
+                android:id="@+id/doctorName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="106dp"
+                android:layout_marginLeft="106dp"
+                android:layout_marginBottom="79dp"
+                android:text="Welcome Doctor"
+                android:textColor="#ffffff"
+                android:textSize="26sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="105dp"
+                android:layout_marginLeft="105dp"
+                android:layout_marginBottom="55dp"
+                android:text="How we can help you oday?"
+                android:textColor="#ffffff"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/btnRequst"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:background="@drawable/button_home"
+            android:text="Appointement"
+            android:textColor="#22BE87"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:fontFamily="@font/roboto"
+
+             />
+
+        <Button
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:id="@+id/listPatients"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:background="@drawable/button_home"
+            android:text="My Patients"
+            android:textAllCaps="false"
+            android:textColor="#22BE87"
+            android:textSize="16sp"
+             />
+
+
+
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+
+    <LinearLayout
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/appointement"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+
+            android:background="@drawable/button_home"
+            android:text=" Patient Request"
+            android:textColor="#22BE87"
+            android:textSize="14sp"
+            android:fontFamily="@font/roboto"
+            android:textAllCaps="false"
+            />
+
+
+
+        <Button
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:id="@+id/profile"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:background="@drawable/button_home"
+            android:text="Profile"
+            android:fontFamily="@font/roboto"
+            android:textAllCaps="false"
+            android:textColor="#22BE87"
+            android:textSize="16sp"
+            />
+
+
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp"/>
+
+    <LinearLayout
+        android:gravity="center"
+        android:weightSum="2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/myCalendarBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="100dp"
+            android:background="@drawable/button_home"
+            android:fontFamily="@font/roboto"
+            android:text="My Calendar"
+            android:textAllCaps="false"
+            android:textColor="#22BE87"
+            android:textSize="16sp"
+            />
+
+    </LinearLayout>
+
+<!--    <Button-->
+<!--        android:padding="10dp"-->
+<!--        android:background="@drawable/button_home"-->
+<!--        android:layout_gravity="center"-->
+<!--       -->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="10dp"-->
+<!--        android:drawablePadding="10dp"-->
+<!--        android:drawableLeft="@drawable/ic_baseline_power_settings_new_24"-->
+<!--        android:text="SignOut"-->
+<!--        android:textColor="#C62828"-->
+<!--        android:textSize="16sp"-->
+<!--         />-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_alignParentBottom="true"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:gravity="bottom"
+            android:background="@drawable/bottom_back"
+            android:weightSum="3"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn_healthTips"
+                android:paddingLeft="5dp"
+                android:drawablePadding="-20dp"
+                android:drawableLeft="@drawable/ic_baseline_health_and_safety_24"
+                android:background="@android:color/transparent"
+                android:text="Health Tips"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:id="@+id/btn_blogs"
+                android:paddingLeft="15dp"
+                android:drawablePadding="-20dp"
+                android:drawableLeft="@drawable/ic_baseline_edit_24"
+                android:background="@android:color/transparent"
+                android:text="Blog"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:paddingLeft="5dp"
+                android:drawablePadding="-20dp"
+                android:drawableLeft="@drawable/ic_baseline_power_settings_new_24"
+                android:id="@+id/signOutBtn"
+                android:background="@android:color/transparent"
+                android:text="Sign Out"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>
